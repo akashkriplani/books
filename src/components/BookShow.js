@@ -25,6 +25,8 @@ function BookShow({ book, onDelete, onEdit }) {
 
   return (
     <div className="book-show">
+      {/* Note these pics are random and not related to search titles. Used for display purposes only. */}
+      <img alt="books" src={`https://picsum.photos/seed/${book.id}/300/200`} />
       <div>{content}</div>
       <div className="actions">
         <button className="edit" onClick={handleEditClick}>
