@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Getting Started with Books App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a silly starter React application that performs CRUD operation based on the list.
 
 ## Available Scripts
 
